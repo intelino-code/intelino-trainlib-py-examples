@@ -8,34 +8,43 @@ Sample code for `intelino-trainlib` - the synchronous intelino train library.
 
 ## Download and install
 
-Download this repository as a zip file through the github
+**Download** this repository as a zip file through the github
 [download link][github_zip], or you can clone it with:
 
-```bash
+```console
 git clone https://github.com/intelino-code/intelino-trainlib-py-examples.git
 cd intelino-trainlib-py-examples
 ```
 
-[optional] To create and activate a local environment, use:
+[optional] To create and activate a **local environment**, use:
 
-```bash
+```console
 python3 -m venv .env
-source .env/bin/activate
 ```
 
-To install the intelino train library, run:
+- Linux and macOS
+  ```console
+  source .env/bin/activate
+  ```
 
-```bash
+- Windows `cmd`
+  ```
+  .env\Scripts\activate.bat
+  ```
+
+To **install** the intelino train library, run:
+
+```console
 python3 -m pip install intelino-trainlib
 ```
 
 For a more detailed installation guide, see our [quick start guide][docs_install].
 
-To verify that everything is installed correctly and works, you can turn on
+To **verify** that everything is installed correctly and works, you can turn on
 Bluetooth on your device, turn on your intelino smart train and scan for it
 with Python.
 
-```bash
+```console
 python3 -m intelino.scan
 ```
 
